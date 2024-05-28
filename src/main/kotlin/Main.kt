@@ -33,7 +33,11 @@ fun App() {
 }
 
 fun main() = application {
-    Window(onCloseRequest = ::exitApplication, title = "7DaysOfCode") {
+    Window(
+        onCloseRequest = ::exitApplication,
+        title = "7DaysOfCode",
+        icon = painterResource("logoAplicacao.png")
+    ) {
         App()
     }
 }
