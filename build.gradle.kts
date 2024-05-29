@@ -19,6 +19,7 @@ dependencies {
     // compose.desktop.currentOs should be used in launcher-sourceSet
     // (in a separate module for demo project and in testMain).
     // With compose.desktop.common you will also lose @Preview functionality
+    implementation("io.github.succlz123:compose-imageloader-desktop:0.0.2")
     implementation(compose.desktop.currentOs)
 }
 
