@@ -12,14 +12,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
-import data.movies
+import classModel.Root
+import com.google.gson.Gson
 import kotlinx.coroutines.launch
 import resources.MovieItem
+import utils.NetworkUtils
 
 
 @Composable
 @Preview
 fun App() {
+    val response = NetworkUtils.getOkHttpInstance()
+
+    val gson = Gson()
+    val dados = gson.fromJson(response, Root::class.java)
+
     val scrollState = rememberLazyListState()
     val coroutineScope = rememberCoroutineScope()
 
@@ -36,8 +43,8 @@ fun App() {
                     },
                 )
         ) {
-            items(movies) { movie ->
-                MovieItem(movie)
+            items(dados.shows) { data ->
+                MovieItem(data)
             }
         }
     }

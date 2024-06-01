@@ -18,12 +18,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
-import modelo.Movie
+import classModel.Show
 import org.succlz123.lib.imageloader.ImageAsyncImageUrl
 import org.succlz123.lib.imageloader.core.ImageCallback
 
 @Composable
-fun MovieItem(movie: Movie) {
+fun MovieItem(show: Show) {
     val tamanhoFonte = 15
     val tamanhoFonteTitulo = 12
 
@@ -38,14 +38,19 @@ fun MovieItem(movie: Movie) {
                 .padding(10.dp)
         ) {
             Column {
-                ImageAsyncImageUrl(movie.imagem,
+                val imageUrl = if (show.imageSet.verticalPoster.w360.contains("media")) {
+                    "https://i.imgur.com/q6VYuim.png"
+                } else {
+                    show.imageSet.verticalPoster.w360
+                }
+                ImageAsyncImageUrl(imageUrl,
                     imageCallback = ImageCallback {
                         Image(
                             modifier = Modifier
                                 .width(200.dp)
                                 .clip(shape = RoundedCornerShape(5.dp)),
                             painter = it,
-                            contentDescription = "Capa Wicked"
+                            contentDescription = "Capa"
                         )
                     })
                 Column {
@@ -67,13 +72,13 @@ fun MovieItem(movie: Movie) {
                                 tint = Color.Yellow
                             )
                             Text(
-                                text = movie.nota,
+                                text = show.rating.toString(),
                                 color = Color.White,
                                 fontSize = tamanhoFonte.sp,
                                 fontWeight = FontWeight.Bold
                             )
                         }
-                        Text(text = movie.ano, color = Color.White, fontSize = tamanhoFonte.sp)
+                        Text(text = show.releaseYear.toString(), color = Color.White, fontSize = tamanhoFonte.sp)
                     }
 
                     Row(
@@ -83,7 +88,7 @@ fun MovieItem(movie: Movie) {
                         horizontalArrangement = Arrangement.Center
                     ) {
                         Text(
-                            text = movie.titulo,
+                            text = show.title,
                             color = Color.White,
                             textAlign = TextAlign.Center,
                             fontSize = tamanhoFonteTitulo.sp,
