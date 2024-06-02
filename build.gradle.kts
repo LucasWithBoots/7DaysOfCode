@@ -21,6 +21,8 @@ dependencies {
     // With compose.desktop.common you will also lose @Preview functionality
     implementation("io.github.succlz123:compose-imageloader-desktop:0.0.2")
     implementation(compose.desktop.currentOs)
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.google.code.gson:gson:2.11.0")
 }
 
 compose.desktop {
