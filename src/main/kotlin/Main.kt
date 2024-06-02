@@ -26,7 +26,7 @@ import webclient.utils.NetworkUtils
 @Composable
 @Preview
 fun App() {
-    val response = NetworkUtils.getOkHttpInstance("https://luwucaz.github.io/jsonFiles/movies-250.json")
+    val response = NetworkUtils.getOkHttpInstance("https://LucasWithBoots.github.io/jsonFiles/movies-250.json")
 
     val gson = Gson()
     val dados = gson.fromJson(response, Root::class.java)
