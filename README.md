@@ -26,6 +26,10 @@
 
 ![Day 6](src/main/resources/capturasDeTelaDias/dia6.gif)
 
+### Day 7
+
+![Day 7](src/main/resources/capturasDeTelaDias/dia7.gif)
+
 ## Thanks
 
 - https://github.com/succlz123/compose-desktop-imageloader/
