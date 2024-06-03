@@ -16,19 +16,19 @@
 
 ### Day 4
 
-<img src="src/main/resources/capturasDeTelaDias/dia4.png" alt="drawing" width="50%"/>
+<img src="src/main/resources/capturasDeTelaDias/dia4.gif" alt="drawing" width="50%"/>
 
 ### Day 5
 
-<img src="src/main/resources/capturasDeTelaDias/dia5.png" alt="drawing" width="50%"/>
+<img src="src/main/resources/capturasDeTelaDias/dia5.gif" alt="drawing" width="50%"/>
 
 ### Day 6
 
-<img src="src/main/resources/capturasDeTelaDias/dia6.png" alt="drawing" width="50%"/>
+<img src="src/main/resources/capturasDeTelaDias/dia6.gif" alt="drawing" width="50%"/>
 
 ### Day 7
 
-<img src="src/main/resources/capturasDeTelaDias/dia7.png" alt="drawing" width="50%"/>
+<img src="src/main/resources/capturasDeTelaDias/dia7.gif" alt="drawing" width="50%"/>
 
 ## Thanks
 
