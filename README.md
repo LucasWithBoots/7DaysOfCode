@@ -4,31 +4,31 @@
 
 ### Day 1
 
-![Day 1](src/main/resources/capturasDeTelaDias/dia1.png)
+<img src="src/main/resources/capturasDeTelaDias/dia1.png" alt="drawing" width="50%"/>
 
 ### Day 2
 
-![Day 2](src/main/resources/capturasDeTelaDias/dia2.png)
+<img src="src/main/resources/capturasDeTelaDias/dia2.png" alt="drawing" width="50%"/>
 
 ### Day 3
 
-![Day 3](src/main/resources/capturasDeTelaDias/dia3.png)
+<img src="src/main/resources/capturasDeTelaDias/dia3.png" alt="drawing" width="50%"/>
 
 ### Day 4
 
-![Day 4](src/main/resources/capturasDeTelaDias/dia4.gif)
+<img src="src/main/resources/capturasDeTelaDias/dia4.png" alt="drawing" width="50%"/>
 
 ### Day 5
 
-![Day 5](src/main/resources/capturasDeTelaDias/dia5.gif)
+<img src="src/main/resources/capturasDeTelaDias/dia5.png" alt="drawing" width="50%"/>
 
 ### Day 6
 
-![Day 6](src/main/resources/capturasDeTelaDias/dia6.gif)
+<img src="src/main/resources/capturasDeTelaDias/dia6.png" alt="drawing" width="50%"/>
 
 ### Day 7
 
-![Day 7](src/main/resources/capturasDeTelaDias/dia7.gif)
+<img src="src/main/resources/capturasDeTelaDias/dia7.png" alt="drawing" width="50%"/>
 
 ## Thanks
 
