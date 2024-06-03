@@ -59,7 +59,7 @@ fun MovieItemCompose(movie: Movy) {
         //color = Color(0xFF140c0c),
         color = Color(0xFF121212),
         shape = RoundedCornerShape(5.dp),
-        modifier = Modifier.size(width = 200.dp, height = 350.dp)
+        modifier = Modifier.size(width = 260.dp, height = 270.dp)
     ) {
         Box(
             modifier = Modifier
