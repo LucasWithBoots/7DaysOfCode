@@ -1,5 +1,7 @@
 # 7DaysOfCode
 
+Construção de uma aplicação desktop desenvolvida inteiramente em Kotlin, que oferece uma interface amigável para visualizar os 250 principais filmes do IMDb. A aplicação se conecta a uma API para obter a lista dos 250 principais filmes do IMDb, retornando os resultados em formato JSON. Utiliza Jetpack Compose para criar uma interface.
+
 ## Screenshots
 
 ### Day 1
